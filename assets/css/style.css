@@ -22,13 +22,33 @@
     margin-left: 2rem;
 }
 #header .content{
-    width: 40vw;
+    width: 35vw;
     padding: 2rem;
     margin-top: 30vh;
 }
 #header .content span{
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 /* MAIN */
+#main{
+    text-align: center;
+    padding: 1rem;
+}
+#main h2{
+    font-size: 3rem;
+    color: orangered;
+
+}
+.pets{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+#main .pets .images-pets img{
+    width: 21vw;
+    height: 40vh;
+    padding: 1rem;
+
+}
